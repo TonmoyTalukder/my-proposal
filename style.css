@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  text-align: center;
+  background: rgb(0, 0, 0) url("images/background.jpg") no-repeat fixed center;
+  background-size: 1500px 800px;
+}
+
+/* Everything Else Without Images */
+.Button {
+  margin-top: 100px;
+  margin-bottom: -50px;
+  color: darkgray;
+  font-size: 40px;
+  font-family: "Poppins", "sans-serif";
+}
+#head {
+  text-align: center;
+  font-family: "Poppins", "sans-serif";
+}
+#mylove {
+  margin-top: -50px;
+  font-family: "Poppins", "sans-serif";
+}
+.btn {
+  color: cornsilk;
+  background-color: rgb(54, 98, 179);
+  border-radius: 25px;
+  border-color: rgba(240, 248, 255, 0);
+  font-weight: 700;
+  font-size: 20px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Poppins", "sans-serif";
+}
+
+.req-text {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", "sans-serif";
+}
+
+#mylove {
+  visibility: hidden;
+  font-family: "Poppins", "sans-serif";
+}
+
+/*-Image-*/
+
+.images-class {
+  display: grid;
+  grid-column: auto;
+  justify-content: center;
+  font-family: "Poppins", "sans-serif";
+}
+.images-class img {
+  border-radius: 200px;
+  height: 250px;
+  justify-self: center;
+  font-family: "Poppins", "sans-serif";
+  opacity: 0.7;
+}
+
+.images-class img:hover {
+  opacity: 1;
+}
+.rotated-image {
+  -webkit-animation: rotation 8s infinite linear;
+}
+
+.rotated-image-stop {
+  -webkit-animation: rotation 0s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+/* footer */
+.footer-style {
+  color: darkgray;
+  font-family: Poppins;
+}
+
+.footer-span {
+  color: chocolate;
+  font-family: Poppins;
+}

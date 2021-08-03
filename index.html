@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Propose by Tonmoy</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/rashmika-icon.png">
+</head>
+
+<body>
+    <main>
+        <!-- Proposal Section -->
+        <section class="proposal-section">
+            <audio id="myAudioOne">
+                <source src="audio/Kaun Tujhe.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <audio id="myAudioTwo">
+                <source src="audio/Tum Hi Ho.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <audio id="myAudioThree">
+                <source src="audio/zara-zara.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="Button">
+                <h1 id="head">Rashmika! <br> Will you marry me? <br> 🥺🥺</h1>
+                <input type="button" class="btn" id="toggler" value="Yes!!!" onClick="action();  playAudioTwo();" />
+                <input type="button" class="btn" id="togglee" value="Yes! Of course!!!"
+                    onClick="action(); playAudioOne();" />
+                <h1 id="mylove" onclick="actionBack();">I love you😍😍 <br> I promise, I will not make you sad again in
+                    life.
+                </h1>
+            </div>
+        </section>
+
+        <!-- Image Section -->
+        <section class="images-class">
+            <img id="moumi" onClick="imagePlay(); imageMove(); imageMoveStop();" src="images/rashmika.jpeg" alt="">
+            <p class="req-text">Please forget everything what I did make you angry with me. <br> Please be like before.
+                Please be
+                like before you
+                were with me. I will not do those fun again. My Promise. <br> It's hard for me to stay fine if you are
+                not
+                okay with me. <br>
+                Please give me another chance?<br> Ek Chance To Banta Hi Hain Na Moumi?</p>
+            <h2 class="req-text">NB: This is not a force, just created to make you happy. A try of express of my love.
+            </h2>
+        </section>
+    </main>
+
+    <footer class="req-text">
+        <p class="footer-style">&copy; Tonmoy, 2021 <br>
+            <span class="footer-span">Rashmika
+                Ka One
+                Sided
+                Ashiq</span>
+        </p>
+    </footer>
+
+    <script src="js/propose.js"></script>
+</body>
+
+</html>
